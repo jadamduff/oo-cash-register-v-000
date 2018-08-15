@@ -4,7 +4,7 @@ class CashRegister
 
   @all = []
   @prices = []
-  
+
   def initialize(discount = 0.0)
     @total = 0.00
     @discount = discount.to_f

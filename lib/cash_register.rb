@@ -2,7 +2,7 @@ class CashRegister
 
   attr_accessor :discount, :total
 
-  def initialize(discount = undefined)
+  def initialize(discount = 0.0)
     @total = 0.00
     @discount = discount.to_f
   end
